@@ -1,4 +1,4 @@
-body {
+    body {
       font-family: Arial, sans-serif;
       background-color: #ffffff;
       color: #333;
@@ -264,7 +264,21 @@ body {
 .btn-agendar {
   margin-top: 70px;
 }
+.btn-vermas {
+  background-color: #b03060;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 25px;
+  margin-top: 15px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
 
+.btn-vermas:hover {
+  background-color: #8e244c;
+  transform: scale(1.05);
+}
 
 
 
